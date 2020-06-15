@@ -7,15 +7,7 @@ import "./App.css";
 class App extends React.Component {
     render() {
         return (
-            <div className="App">
-                <header>
-                    <div id="logo">
-                        <span className="icon">date_range</span>
-                        <span>
-                            react<b>calendar</b>
-                        </span>
-                    </div>
-                </header>
+            <div className="App">               
                 <main>
                     <Calendar />
                 </main>
@@ -23,6 +15,4 @@ class App extends React.Component {
         );
     }
 }
-
 export default App;
-//
